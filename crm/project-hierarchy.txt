@@ -1,0 +1,98 @@
+crm
+└─ tealcrm
+   ├─ client
+   │  ├─ admin.py
+   │  ├─ apps.py
+   │  ├─ forms.py
+   │  ├─ migrations
+   │  │  ├─ 0001_initial.py
+   │  │  ├─ 0002_client_team.py
+   │  │  └─ 0003_alter_client_options.py
+   │  ├─ models.py
+   │  ├─ templates
+   │  │  └─ client
+   │  │     ├─ clients_add.html
+   │  │     ├─ clients_detail.html
+   │  │     ├─ clients_edit.html
+   │  │     └─ clients_list.html
+   │  ├─ tests.py
+   │  ├─ urls.py
+   │  └─ views.py
+   ├─ core
+   │  ├─ admin.py
+   │  ├─ apps.py
+   │  ├─ migrations
+   │  │  ├─ 0001_initial.py
+   │  │  └─ 0002_delete_userprofile.py
+   │  ├─ models.py
+   │  ├─ templates
+   │  │  └─ core
+   │  │     ├─ about.html
+   │  │     ├─ base.html
+   │  │     └─ index.html
+   │  ├─ tests.py
+   │  └─ views.py
+   ├─ dashboard
+   │  ├─ admin.py
+   │  ├─ apps.py
+   │  ├─ migrations
+   │  ├─ models.py
+   │  ├─ templates
+   │  │  └─ dashboard
+   │  │     └─ dashboard.html
+   │  ├─ tests.py
+   │  ├─ urls.py
+   │  └─ views.py
+   ├─ lead
+   │  ├─ admin.py
+   │  ├─ apps.py
+   │  ├─ choices.py
+   │  ├─ forms.py
+   │  ├─ migrations
+   │  │  ├─ 0001_initial.py
+   │  │  ├─ 0002_lead_converted_to_client.py
+   │  │  ├─ 0003_lead_team.py
+   │  │  └─ 0004_alter_lead_options.py
+   │  ├─ models.py
+   │  ├─ templates
+   │  │  └─ lead
+   │  │     ├─ add_lead.html
+   │  │     ├─ leads_detail.html
+   │  │     ├─ leads_edit.html
+   │  │     └─ leads_list.html
+   │  ├─ tests.py
+   │  ├─ urls.py
+   │  └─ views.py
+   ├─ tealcrm
+   │  ├─ asgi.py
+   │  ├─ settings.py
+   │  ├─ urls.py
+   │  └─ wsgi.py
+   ├─ team
+   │  ├─ admin.py
+   │  ├─ apps.py
+   │  ├─ forms.py
+   │  ├─ migrations
+   │  │  ├─ 0001_initial.py
+   │  │  ├─ 0002_plan_alter_team_options.py
+   │  │  └─ 0003_team_plan.py
+   │  ├─ models.py
+   │  ├─ templates
+   │  │  └─ team
+   │  │     └─ edit_team.html
+   │  ├─ tests.py
+   │  ├─ urls.py
+   │  └─ views.py
+   └─ userprofile
+      ├─ admin.py
+      ├─ apps.py
+      ├─ migrations
+      │  └─ 0001_initial.py
+      ├─ models.py
+      ├─ templates
+      │  └─ userprofile
+      │     ├─ login.html
+      │     ├─ myaccount.html
+      │     └─ signup.html
+      ├─ tests.py
+      └─ views.py
